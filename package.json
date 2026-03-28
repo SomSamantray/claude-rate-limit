@@ -1,0 +1,20 @@
+{
+  "name": "claude-rate-limit",
+  "version": "1.0.0",
+  "description": "Native rate-limit status bar for Claude Code — shows 5h/7d usage + context window in the bottom status bar, with macOS notifications at thresholds.",
+  "type": "module",
+  "bin": {
+    "claude-rate-limit": "install.mjs"
+  },
+  "files": [
+    "statusline.mjs",
+    "install.mjs"
+  ],
+  "keywords": ["claude", "claude-code", "rate-limit", "statusline", "anthropic"],
+  "license": "MIT",
+  "engines": { "node": ">=18" },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SomSamantray/claude-rate-limit"
+  }
+}
